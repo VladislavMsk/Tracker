@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F104B95E2C3B2B7F00DD9953 /* StaticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F104B95D2C3B2B7F00DD9953 /* StaticViewController.swift */; };
+		F104B9E22C3EE69000DD9953 /* DataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F104B9E12C3EE69000DD9953 /* DataStructure.swift */; };
+		F113A57D2C4C30E800190082 /* navigationTopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F113A57C2C4C30E800190082 /* navigationTopController.swift */; };
+		F113A57F2C4CF40800190082 /* addTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F113A57E2C4CF40800190082 /* addTrackerViewController.swift */; };
 		F1FC8B912C358B51001FC018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC8B902C358B51001FC018 /* AppDelegate.swift */; };
 		F1FC8B932C358B51001FC018 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC8B922C358B51001FC018 /* SceneDelegate.swift */; };
-		F1FC8B952C358B51001FC018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC8B942C358B51001FC018 /* ViewController.swift */; };
+		F1FC8B952C358B51001FC018 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC8B942C358B51001FC018 /* MainTabBarController.swift */; };
 		F1FC8B9B2C358B51001FC018 /* Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1FC8B992C358B51001FC018 /* Tracker.xcdatamodeld */; };
 		F1FC8B9D2C358B54001FC018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1FC8B9C2C358B54001FC018 /* Assets.xcassets */; };
 		F1FC8BA02C358B54001FC018 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F1FC8B9F2C358B54001FC018 /* Base */; };
 		F1FC8BAB2C358B54001FC018 /* TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC8BAA2C358B54001FC018 /* TrackerTests.swift */; };
 		F1FC8BB52C358B54001FC018 /* TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC8BB42C358B54001FC018 /* TrackerUITests.swift */; };
 		F1FC8BB72C358B54001FC018 /* TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC8BB62C358B54001FC018 /* TrackerUITestsLaunchTests.swift */; };
-		F1FC8BC42C3722FE001FC018 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC8BC32C3722FE001FC018 /* FirstScreen.swift */; };
+		F1FC8BC42C3722FE001FC018 /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC8BC32C3722FE001FC018 /* TrackerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F104B95D2C3B2B7F00DD9953 /* StaticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticViewController.swift; sourceTree = "<group>"; };
+		F104B9E12C3EE69000DD9953 /* DataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructure.swift; sourceTree = "<group>"; };
+		F113A57C2C4C30E800190082 /* navigationTopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationTopController.swift; sourceTree = "<group>"; };
+		F113A57E2C4CF40800190082 /* addTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTrackerViewController.swift; sourceTree = "<group>"; };
 		F1FC8B8D2C358B51001FC018 /* Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1FC8B902C358B51001FC018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1FC8B922C358B51001FC018 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F1FC8B942C358B51001FC018 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1FC8B942C358B51001FC018 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		F1FC8B9A2C358B51001FC018 /* Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tracker.xcdatamodel; sourceTree = "<group>"; };
 		F1FC8B9C2C358B54001FC018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1FC8B9F2C358B54001FC018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,7 +58,7 @@
 		F1FC8BB02C358B54001FC018 /* TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1FC8BB42C358B54001FC018 /* TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerUITests.swift; sourceTree = "<group>"; };
 		F1FC8BB62C358B54001FC018 /* TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F1FC8BC32C3722FE001FC018 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		F1FC8BC32C3722FE001FC018 /* TrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +111,16 @@
 			children = (
 				F1FC8B902C358B51001FC018 /* AppDelegate.swift */,
 				F1FC8B922C358B51001FC018 /* SceneDelegate.swift */,
-				F1FC8B942C358B51001FC018 /* ViewController.swift */,
+				F1FC8B942C358B51001FC018 /* MainTabBarController.swift */,
+				F113A57C2C4C30E800190082 /* navigationTopController.swift */,
 				F1FC8B9C2C358B54001FC018 /* Assets.xcassets */,
 				F1FC8B9E2C358B54001FC018 /* LaunchScreen.storyboard */,
 				F1FC8BA12C358B54001FC018 /* Info.plist */,
 				F1FC8B992C358B51001FC018 /* Tracker.xcdatamodeld */,
-				F1FC8BC32C3722FE001FC018 /* FirstScreen.swift */,
+				F1FC8BC32C3722FE001FC018 /* TrackerViewController.swift */,
+				F104B95D2C3B2B7F00DD9953 /* StaticViewController.swift */,
+				F104B9E12C3EE69000DD9953 /* DataStructure.swift */,
+				F113A57E2C4CF40800190082 /* addTrackerViewController.swift */,
 			);
 			path = Tracker;
 			sourceTree = "<group>";
@@ -261,10 +273,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1FC8B9B2C358B51001FC018 /* Tracker.xcdatamodeld in Sources */,
-				F1FC8B952C358B51001FC018 /* ViewController.swift in Sources */,
+				F1FC8B952C358B51001FC018 /* MainTabBarController.swift in Sources */,
+				F113A57F2C4CF40800190082 /* addTrackerViewController.swift in Sources */,
+				F104B9E22C3EE69000DD9953 /* DataStructure.swift in Sources */,
 				F1FC8B912C358B51001FC018 /* AppDelegate.swift in Sources */,
 				F1FC8B932C358B51001FC018 /* SceneDelegate.swift in Sources */,
-				F1FC8BC42C3722FE001FC018 /* FirstScreen.swift in Sources */,
+				F104B95E2C3B2B7F00DD9953 /* StaticViewController.swift in Sources */,
+				F1FC8BC42C3722FE001FC018 /* TrackerViewController.swift in Sources */,
+				F113A57D2C4C30E800190082 /* navigationTopController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
